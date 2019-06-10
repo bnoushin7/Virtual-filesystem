@@ -1,6 +1,6 @@
 # Virtual-filesystem
 
-This project, cretaes a _Virtual File System_ in Linux to get process hierarchy and stats.
+This project, cretaes a Virtual File System in Linux to get process hierarchy and stats.
 User space test program:
 The user space test program (testcase.c) having a very simple Makefile, registers SIGUSR1 and forks three times. Signal handler is implemented to prints "signal number %d received".
 The "testcase" should be run before mounting the filesystem. It starts printing parent/child is running and then keeps just running, without printing anything. 
