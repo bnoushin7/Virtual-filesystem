@@ -10,7 +10,7 @@ replicates the process hierarchy.
 
 
 ### Installing
-User space test program:
+__User space test program__
 
 The user space test program (testcase.c) having a very simple Makefile, registers SIGUSR1 and forks three times. Signal handler is implemented to prints "signal number %d received".
 The "testcase" should be run before mounting the filesystem. It starts printing parent/child is running and then keeps just running, without printing anything. 
