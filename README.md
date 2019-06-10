@@ -26,11 +26,11 @@ These are the steps required for the module to be working.
 0- These command in the makefile should be changed according to what the VM sets the IP to:
 	INSTALL_TARGET=user@192.168.53.89:~
 NOTE: The Makefile assumes that you are working in your home directory.
-1- Make
-2- Make install 
-This command "scp $(MOD_NAME).ko $(INSTALL_TARGET)" in the Makefile, copies the "lwnfs.ko" module to the guest machin (in my case KVM)
-3-"sudo insmod lwnfs.ko"
-The lwnfs.ko module should be first copied and installed on the guest machine.
+1- Make <br />
+2- Make install <br />
+This command "scp $(MOD_NAME).ko $(INSTALL_TARGET)" in the Makefile, copies the "lwnfs.ko" module to the guest machin (in my case KVM) <br />
+3-"sudo insmod lwnfs.ko" <br />
+The lwnfs.ko module should be first copied and installed on the guest machine. <br />
 4- mkdir dir
-"dir" is the directory for mounting the filesystem.
+"dir" is the directory for mounting the filesystem. <br />
 5- It should be mounted like "sudo mount -t lwnfs lwnfs dir/"
