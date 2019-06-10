@@ -25,7 +25,7 @@ These are the steps required for the module to be working.
 
 0- These command in the makefile should be changed according to what the VM sets the IP to:
 	INSTALL_TARGET=user@192.168.53.89:~
-NOTE: The Makefile assumes that you are working in your home directory.
+NOTE: The Makefile assumes that you are working in your home directory. <br />
 1- Make <br />
 2- Make install <br />
 This command "scp $(MOD_NAME).ko $(INSTALL_TARGET)" in the Makefile, copies the "lwnfs.ko" module to the guest machin (in my case KVM) <br />
