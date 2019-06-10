@@ -8,7 +8,6 @@ The user space test program (testcase.c) having a very simple Makefile, register
 The "testcase" should be run before mounting the filesystem. It starts printing parent/child is running and then keeps just running, without printing anything. 
 
 Filesystemshould be mounted after launching the "testcase" and the hierarchy of these processes is also shown in the hierarchy of processes.
-
 In order to see the statistics about the processes, "cat /path/to/the/pid/pid.status" should be used.
 In order to sendthe signal, "echo "10" > /path/to/the/pid/signal" should be used.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
