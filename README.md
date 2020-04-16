@@ -33,4 +33,4 @@ This command "scp $(MOD_NAME).ko $(INSTALL_TARGET)" in the Makefile, copies the 
 The lwnfs.ko module should be first copied and installed on the guest machine. <br />
 4- mkdir dir
 "dir" is the directory for mounting the filesystem. <br />
-5- It should be mounted like "sudo mount -t lwnfs lwnfs dir/"
+5- It should be mounted like "sudo mount -t lwnfs lwnfs dir/".
